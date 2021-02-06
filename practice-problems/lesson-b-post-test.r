@@ -14,7 +14,10 @@ pnorm(q=27.2, mean=27, sd=0.387)
 pnorm(q=26.8, mean=27, sd=0.387) - pnorm(q=26, mean=27, sd=0.387)
 
 #Question 8
-pnorm(q=.80, mean=.75, sd=.016)
+pnorm(q=.80, mean=.75, sd=.037)
 
 #Question 9
-1 - pnorm(q=.65, mean=.75, sd=.016)
+1 - pnorm(q=.65, mean=.75, sd=.037)
+
+#Question 10
+pnorm(q=.80, mean=.75, sd=.016) - pnorm(q=.65, mean=.75, sd=.037)
